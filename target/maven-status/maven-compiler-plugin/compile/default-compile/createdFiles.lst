@@ -1,0 +1,10 @@
+com\task\stub\controller\MicroCreditController.class
+com\task\stub\model\response\ContactModel.class
+com\task\stub\model\request\PaymentRequestModel.class
+com\task\stub\model\response\PaymentResponseModel.class
+com\task\stub\StubApplication.class
+com\task\stub\service\MicroCreditService.class
+com\task\stub\config\MicrometrConfig.class
+com\task\stub\model\response\CheckResponseModel.class
+com\task\stub\model\response\DebtModel.class
+com\task\stub\swagger\SwaggerConfig.class

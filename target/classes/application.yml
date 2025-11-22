@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: debug
+  datasource:
+    url: jdbc:h2:file:D:/myDB
+    username: name
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+server:
+  port: 8080
+logging:
+  file:
+    name: D:\\logs\\stub.log
+    max-size: 50MB
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+management:
+  server:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: "*"
+
+PauseTime: 1

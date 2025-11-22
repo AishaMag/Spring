@@ -1,0 +1,6 @@
+server:
+  port: 7775
+  tomcat:
+    threads:
+      max: 400
+PauseTime: 4
